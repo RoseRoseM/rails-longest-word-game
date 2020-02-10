@@ -1,0 +1,11 @@
+<h3> Your word </h3>
+<p> <%= @attempt %> </p>
+
+<h2> <%= @calculus[:message] %></h2>
+
+
+<p> Your score on this word : <%= @calculus[:score] %></p>
+<p>Your total score: <%= session[:score] %></p>
+<p>Your time :</p>
+
+<%= link_to "Play again", new_path %>
